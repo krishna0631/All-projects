@@ -1,0 +1,29 @@
+import javax.swing.*;
+public class Swingdemo3  {
+JFrame f;
+Swingdemo3(){
+f=new JFrame("JTextField");
+JTextField b1=new JTextField("");
+JTextField b2=new JTextField("");
+JCheckBox b3=new JCheckBox("CheckBox");
+JLabel b4=new JLabel("Username");
+JLabel b5=new JLabel("Password");
+b1.setBounds(130,100,100,40);
+b2.setBounds(130,150,100,40);
+b3.setBounds(130,180,100,40);
+b4.setBounds(65,100,100,40);
+b5.setBounds(65,150,100,40);
+f.add(b1);
+f.add(b2);
+f.add(b3);
+f.add(b4);
+f.add(b5);
+f.setSize(400,500);
+f.setLayout(null);
+f.setVisible(true);
+}
+
+public static void main(String[] args){
+new Swingdemo3();
+}
+}
